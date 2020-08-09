@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://brati123:brati123@devconnector.vr2g2.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://brati123:brati123@devconnector.vr2g2.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
