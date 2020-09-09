@@ -192,7 +192,7 @@ router.post(
 
       res.json(post.comments);
     } catch (err) {
-      console.log(err.message);
+      console.error(err.message);
       res.status(500).send('Server Error');
     }
   }
@@ -231,7 +231,7 @@ router.delete('/comment/:id/:comment_id', auth, async (req, res) => {
 
     res.json(post.comments);
   } catch (err) {
-    console.log(err.message);
+    console.error(err.message);
     res.status(500).send('Server Error');
   }
 });
