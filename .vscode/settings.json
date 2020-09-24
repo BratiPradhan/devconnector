@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false
+    },
+    "files.watcherExclude": {
+        "**/node_modules/*/**": false
+    },
+    "search.exclude": {
+        "**/*.code-search": false,
+        "**/node_modules": false
+    }
+}
