@@ -49,17 +49,17 @@ router.post(
     }
     const {
       company,
-      website,
       location,
+      website,
       bio,
+      skills,
       status,
       githubusername,
-      skills,
       youtube,
-      facebook,
       twitter,
       instagram,
       linkedin,
+      facebook,
     } = req.body;
 
     // Build profile object
